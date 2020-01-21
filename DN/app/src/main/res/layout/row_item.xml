@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/Llayout"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/subjectNamee"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#6DF6FFCF"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="CPCS203"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/firstNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Number1"
+            android:textSize="14sp" />
+
+        <TextView
+
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Out of"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/SecondNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Number2"
+            android:textSize="14sp" />
+
+        <ProgressBar
+            android:id="@+id/MyProgressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_weight="1"
+            android:indeterminate="false"
+            android:max="100"
+            android:progress="50"
+            android:progressDrawable="@drawable/progress_circle"
+            android:secondaryProgress="100" />
+
+    </LinearLayout>
+</LinearLayout>

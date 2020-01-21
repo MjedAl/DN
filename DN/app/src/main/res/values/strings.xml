@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Denial tracker</string>
+    <string name="Settings">Settings</string>
+    <string name="Add_Subject">Add Subject</string>
+    <string name="Send">Send</string>
+    <string name="Add">Add</string>
+    <string name="BACK">Back</string>
+    <string name="S_N">Subject Name:</string>
+    <string name="S_c">Num of classes/week:</string>
+    <string name="N_W">Number of Weeks:</string>
+    <string name="add_new">Add new</string>
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
+</resources>
