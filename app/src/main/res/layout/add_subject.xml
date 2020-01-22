@@ -29,8 +29,8 @@
 
     <EditText
         android:id="@+id/editText"
-        android:layout_width="213dp"
-        android:layout_height="45dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:layout_marginStart="15dp"
         android:layout_marginLeft="15dp"
         android:layout_marginTop="150dp"
@@ -47,8 +47,8 @@
 
     <EditText
         android:id="@+id/editText2"
-        android:layout_width="213dp"
-        android:layout_height="45dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:layout_marginStart="15dp"
         android:layout_marginLeft="15dp"
         android:layout_marginTop="5dp"
@@ -65,8 +65,8 @@
 
     <EditText
         android:id="@+id/editText3"
-        android:layout_width="213dp"
-        android:layout_height="45dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:layout_marginStart="15dp"
         android:layout_marginLeft="15dp"
         android:layout_marginTop="5dp"
@@ -83,7 +83,7 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="126dp"
+        android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_marginStart="50dp"
         android:layout_marginLeft="50dp"
@@ -102,9 +102,8 @@
 
     <TextView
         android:id="@+id/dnStat"
-        android:layout_width="338dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="232dp"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
         android:gravity="center_horizontal|center_vertical"
         android:text="Note: the DN rate is set to 25% , can be change in the settings."
         app:layout_constraintEnd_toEndOf="parent"
