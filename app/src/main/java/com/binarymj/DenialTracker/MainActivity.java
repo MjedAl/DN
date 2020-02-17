@@ -70,6 +70,19 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
                 GoIntoSubject(MySubjects.get(position));
             }
         });
+
+        // add all absence to calender.
+        // find the calender.
+        
+        for (int i =0; i<MySubjects.size();i++){
+
+            for (int k=0; k<MySubjects.get(i).getAllAbsens().size();k++) {
+
+
+
+            }
+
+        }
         Save();
     }
 
